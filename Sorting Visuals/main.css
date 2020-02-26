@@ -1,0 +1,44 @@
+@import "reset.css";
+
+.selection{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selection > * {
+  display: inline-block;
+  background-color: grey;
+  color: rgb(247, 247, 18);
+  font-size: 3rem;
+  margin: 0 20px;
+}
+
+#Go{
+  display: block;
+  width: 100px;
+  margin: 2rem auto;
+  font-size: 2.5rem;
+}
+
+#block {
+  margin: 2rem auto;
+  height: 50vh;
+  width: 80vh;
+  background-color: whitesmoke;
+  display: flex;
+}
+
+.section{
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bar{
+  background-color: orangered;
+  width: 90%;
+}
